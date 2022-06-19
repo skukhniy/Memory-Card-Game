@@ -4,12 +4,19 @@ import GameDisplay from './components/GameDisplay';
 import Header from './components/Header';
 
 function App() {
-  const [history, setHistory] = useState([]);
+  const [score, setScore] = useState(0);
+
+  const [bestScore, setBestScore] = useState(0);
 
   return (
     <div className="App">
-      <Header />
-      <GameDisplay history={history} setHistory={setHistory} />
+      <Header score={score} bestScore={bestScore} />
+      <GameDisplay
+        score={score}
+        setScore={setScore}
+        bestScore={bestScore}
+        setBestScore={setBestScore}
+      />
     </div>
   );
 }
