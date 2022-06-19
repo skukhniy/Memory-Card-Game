@@ -19,6 +19,7 @@ h3{
   margin-top: 0;
   margin-bottom: 0;
   font-family: StarWars;
+  padding-bottom: 20px;
 }
 .Header{
   text-align: center;
@@ -26,7 +27,9 @@ h3{
   background-color: rgba(0, 0, 0, 0.544);
 }
 #gameDisplay {
-  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   padding-top: 20px;
   padding-right: 20px;
   padding-left:20px;
@@ -36,6 +39,14 @@ h3{
   display: inline-block;
 }
 .cardImg {
-  height:200px;
-  width:300px;
+  height:150px;
+  width:250px;
+  padding-right: 10px;
+  position: relative;
+}
+
+img:hover{
+  -webkit-filter: contrast(99%) saturate(101%) sepia(100%) hue-rotate(215deg);
+  filter: contrast(99%) saturate(101%) sepia(100%) hue-rotate(215deg);
+  cursor: pointer;
 }

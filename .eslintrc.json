@@ -21,6 +21,8 @@
       "react/jsx-filename-extension": [1, { "extensions": [".js"]}],
       "react/prop-types": "off",
       "global-require": "off",
-      "no-console": "off"
+      "no-console": "off",
+      "no-plusplus": "off",
+      "no-param-reassign":"off"
     }
 }
