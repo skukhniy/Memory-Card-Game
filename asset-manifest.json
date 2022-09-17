@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Memory-Card-Game/static/css/main.8461346b.css",
+    "main.js": "/Memory-Card-Game/static/js/main.b0be63df.js",
+    "static/media/spaceBackground.jpg": "/Memory-Card-Game/static/media/spaceBackground.0da6b38a78a36b24b9a2.jpg",
+    "static/media/Starjhol.ttf": "/Memory-Card-Game/static/media/Starjhol.c247ee6825d52f9d0862.ttf",
+    "index.html": "/Memory-Card-Game/index.html",
+    "main.8461346b.css.map": "/Memory-Card-Game/static/css/main.8461346b.css.map",
+    "main.b0be63df.js.map": "/Memory-Card-Game/static/js/main.b0be63df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8461346b.css",
+    "static/js/main.b0be63df.js"
+  ]
+}
